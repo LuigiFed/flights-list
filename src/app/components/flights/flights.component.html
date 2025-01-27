@@ -1,0 +1,38 @@
+<app-menu (voliFiltrati)="updateVoli($event)"></app-menu>
+
+<table class="table table-primary table-striped mt-3" style="padding: 50px;">
+  <thead style="padding: 20px;">
+    <tr>
+      <th>Numero Volo</th>
+      <th>Compagnia Aerea</th>
+      <th>Destinazione</th>
+      <th>Check in</th>
+      <th>Gate</th>
+      <th>Status</th>
+    </tr>
+  </thead>
+  <tbody >
+    <tr *ngFor="let volo of voli" [routerLink]="['/flight-card', volo.numero_volo]" routerLinkActive="router-link-active" style="cursor: pointer;">
+      <td >{{ volo.numero_volo }}</td>
+      <td>
+      <img [src]="volo.logo" alt="{{ volo.compagnia_aerea }}" style="width: 70px;height: auto;">
+      </td>
+      <td>{{ volo.destinazione }}</td>
+      <td>{{ volo.check_in }}</td>
+      <td>{{ volo.gate }}</td>
+      <td [ngClass]="{'text-danger': volo.status === 'Gate Closing',
+        'text-success': volo.status === 'Boarding',
+        'cancelled': volo.status === 'Cancelled'
+        }">
+
+      <span *ngIf="volo.status === 'Cancelled' " class="cancelled"></span>
+      <span *ngIf="volo.status === 'Gate Closing'" class="dot red"></span>
+      <span *ngIf="volo.status === 'Boarding'" class="dot green"></span>
+        {{ volo.status }}
+
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<app-footer></app-footer>

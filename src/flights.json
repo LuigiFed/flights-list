@@ -1,0 +1,352 @@
+{
+  "voli": [
+    {
+      "partenza": "MUC - Munich Airport",
+      "destinazione": "FRA - Frankfurt Airport",
+      "numero_volo": "STU901",
+      "compagnia_aerea": "Lufthansa",
+      "check_in": "05:00 AM",
+      "gate": "3",
+      "status": "Gate Closing",
+      "logo": "https://www.logo.wine/a/logo/Lufthansa/Lufthansa-Logo.wine.svg"
+    },
+    {
+      "partenza": "DXB - Dubai International Airport",
+      "destinazione": "MAD - Madrid Barajas",
+      "numero_volo": "JKL321",
+      "compagnia_aerea": "Iberia",
+      "check_in": "05:00 AM",
+      "gate": "12",
+      "status": "Gate Closing",
+      "logo": "https://www.logo.wine/a/logo/Iberia_(airline)/Iberia_(airline)-Logo.wine.svg"
+    },
+    {
+      "partenza": "NAP-Aeroporto internazionale di Napoli-Capodichino",
+      "destinazione": "DXB - Dubai International Airport",
+      "numero_volo": "XYZ456",
+      "compagnia_aerea": "Air France",
+      "check_in": "08:30 AM",
+      "gate": "17",
+      "status": "On Time",
+      "logo": "https://www.logo.wine/a/logo/Air_France/Air_France-Logo.wine.svg"
+    },
+    {
+      "partenza":"NAP-Aeroporto internazionale di Napoli-Capodichino",
+      "destinazione": "BKK - Bangkok Suvarnabhumi",
+      "numero_volo": "UVW567",
+      "compagnia_aerea": "Thai Airways",
+      "check_in": "08:00 AM",
+      "gate": "13",
+      "status": "Boarding",
+      "logo": "https://www.logo.wine/a/logo/Thai_Airways/Thai_Airways-Logo.wine.svg"
+    },
+    {
+      "partenza":"NAP-Aeroporto internazionale di Napoli-Capodichino",
+      "destinazione": "YYZ - Toronto Pearson",
+      "numero_volo": "GHI456",
+      "compagnia_aerea": "Aeromexico",
+      "check_in": "07:30 AM",
+      "gate": "11",
+      "status": "Boarding",
+      "logo": "https://www.logo.wine/a/logo/Aerom%C3%A9xico/Aerom%C3%A9xico-Logo.wine.svg"
+    },
+    {
+      "partenza":"NAP-Aeroporto internazionale di Napoli-Capodichino",
+      "destinazione": "YYZ - Toronto Pearson",
+      "numero_volo": "OPQ789",
+      "compagnia_aerea": "Air Canada",
+      "check_in": "07:15 AM",
+      "gate": "2",
+      "status": "Boarding",
+      "logo": "https://www.logo.wine/a/logo/Air_Canada/Air_Canada-Logo.wine.svg"
+    },
+    {
+      "partenza":"NAP-Aeroporto internazionale di Napoli-Capodichino",
+      "destinazione": "JFK - New York JFK",
+      "numero_volo": "JKL789",
+      "compagnia_aerea": "Alitalia",
+      "check_in": "09:00 AM",
+      "gate": "10",
+      "status": "On Time",
+      "logo": "https://www.logo.wine/a/logo/Alitalia/Alitalia-Logo.wine.svg"
+    },
+    {
+      "partenza":"NAP-Aeroporto internazionale di Napoli-Capodichino",
+      "destinazione": "HNL - Honolulu International",
+      "numero_volo": "ABC567",
+      "compagnia_aerea": "Hawaiian Airlines",
+      "check_in": "09:00 AM",
+      "gate": "4",
+      "status": "On Time",
+      "logo": "https://www.logo.wine/a/logo/Hawaiian_Airlines/Hawaiian_Airlines-Logo.wine.svg"
+    },
+    {
+      "partenza": "NAP-Aeroporto internazionale di Napoli-Capodichino",
+      "destinazione": "CAI - Cairo International",
+      "numero_volo": "DEF123",
+      "compagnia_aerea": "Ryanair",
+      "check_in": "09:15 AM",
+      "gate": "20",
+      "status": "On Time",
+      "logo": "https://www.logo.wine/a/logo/Ryanair/Ryanair-Logo.wine.svg"
+    },
+    {
+      "partenza":"NAP-Aeroporto internazionale di Napoli-Capodichino",
+      "destinazione": "DEL - Indira Gandhi International",
+      "numero_volo": "DEF890",
+      "compagnia_aerea": "Emirates",
+      "check_in": "09:30 AM",
+      "gate": "18",
+      "status": "On Time",
+      "logo": "https://www.logo.wine/a/logo/Emirates_(airline)/Emirates_(airline)-Logo.wine.svg"
+    },
+    {
+      "partenza": "NAP-Aeroporto internazionale di Napoli-Capodichino",
+      "destinazione": "NRT - Tokyo Narita",
+      "numero_volo": "XYZ123",
+      "compagnia_aerea": "China Eastern Airlines",
+      "check_in": "11:00 AM",
+      "gate": "9",
+      "status": "On Time",
+      "logo": "https://www.logo.wine/a/logo/China_Eastern_Airlines/China_Eastern_Airlines-Logo.wine.svg"
+    },
+    {
+      "partenza" :"NAP-Aeroporto internazionale di Napoli-Capodichino",
+      "destinazione": "LAX - Los Angeles International",
+      "numero_volo": "MNO321",
+      "compagnia_aerea": "Japan Airlines",
+      "check_in": "11:00 AM",
+      "gate": "5",
+      "status": "Delayed",
+      "logo": "https://www.logo.wine/a/logo/Japan_Airlines/Japan_Airlines-Logo.wine.svg"
+    },
+    {
+      "partenza": "LAX - Los Angeles International",
+      "destinazione": "SIN - Singapore Changi",
+      "numero_volo": "LMN456",
+      "compagnia_aerea": "Singapore Airlines",
+      "check_in": "10:30 AM",
+      "gate": "16",
+      "status": "On Time",
+      "logo": "https://www.logo.wine/a/logo/Singapore_Airlines/Singapore_Airlines-Logo.wine.svg"
+    },
+    {
+      "partenza":"NAP-Aeroporto internazionale di Napoli-Capodichino",
+      "destinazione": "GIG - Rio de Janeiro Galeão",
+      "numero_volo": "ABC890",
+      "compagnia_aerea": "Ryanar",
+      "check_in": "10:00 AM",
+      "gate": "19",
+      "status": "On Time",
+      "logo": "https://www.logo.wine/a/logo/Ryanair/Ryanair-Logo.wine.svg"
+    },
+    {
+      "partenza":"DXB - Dubai International Airport",
+      "destinazione": "AKL - Auckland International",
+      "numero_volo": "PQR567",
+      "compagnia_aerea": "Qantas",
+      "check_in": "06:00 PM",
+      "gate": "14",
+      "status": "On Time",
+      "logo": "https://www.logo.wine/a/logo/Qantas/Qantas-Logo.wine.svg"
+    },
+    {
+      "partenza":"DXB - Dubai International Airport",
+      "destinazione": "BCN - Barcelona International Airport",
+      "numero_volo": "STU789",
+      "compagnia_aerea": "Air Berlin",
+      "check_in": "06:30 PM",
+      "gate": "12",
+      "status": "On Time",
+      "logo": "https://www.logo.wine/a/logo/Air_Berlin/Air_Berlin-Logo.wine.svg"
+    },
+    {
+      "partenza":"DXB - Dubai International Airport",
+      "destinazione": "HKG - Hong Kong International Airport",
+      "numero_volo": "VWX901",
+      "compagnia_aerea": "Air China",
+      "check_in": "07:00 PM",
+      "gate": "10",
+      "status": "Delayed",
+      "logo": "https://www.logo.wine/a/logo/Air_China/Air_China-Logo.wine.svg"
+    },
+    {
+      "partenza":"DXB - Dubai International Airport",
+      "destinazione": "ORD - Chicago O'Hare International",
+      "numero_volo": "GHI654",
+      "compagnia_aerea": "United Airlines",
+      "check_in": "07:30 PM",
+      "gate": "15",
+      "status": "On Time",
+      "logo": "https://www.logo.wine/a/logo/United_Airlines/United_Airlines-Logo.wine.svg"
+    },
+    {
+      "partenza":"NAP-Aeroporto internazionale di Napoli-Capodichino",
+      "destinazione": "SFO - San Francisco International",
+      "numero_volo": "JKL012",
+      "compagnia_aerea": "Virgin America",
+      "check_in": "08:00 PM",
+      "gate": "17",
+      "status": "Boarding",
+      "logo": "https://www.logo.wine/a/logo/Virgin_America/Virgin_America-Logo.wine.svg"
+    },
+    {
+      "partenza":"NAP-Aeroporto internazionale di Napoli-Capodichino",
+      "destinazione": "ATL - Atlanta International",
+      "numero_volo": "MNO098",
+      "compagnia_aerea": "American Airlines",
+      "check_in": "08:30 PM",
+      "gate": "13",
+      "status": "On Time",
+      "logo": "https://www.logo.wine/a/logo/American_Airlines/American_Airlines-Logo.wine.svg"
+    },
+    {
+      "partenza":"NAP-Aeroporto internazionale di Napoli-Capodichino",
+      "destinazione": "ORD - Chicago O'Hare International",
+      "numero_volo": "GHI654",
+      "compagnia_aerea": "United Airlines",
+      "check_in": "09:00 PM",
+      "gate": "11",
+      "status": "Cancelled",
+      "logo": "https://www.logo.wine/a/logo/United_Airlines/United_Airlines-Logo.wine.svg"
+    },
+    {
+      "partenza": "NAP - Aeroporto internazionale di Napoli-Capodichino",
+      "destinazione": "ORD - Chicago O'Hare International",
+      "numero_volo": "UA654",
+      "compagnia_aerea": "United Airlines",
+      "check_in": "09:00 PM",
+      "gate": "11",
+      "status": "Cancelled",
+      "logo": "https://www.logo.wine/a/logo/United_Airlines/United_Airlines-Logo.wine.svg"
+    },
+    {
+      "partenza": "NAP - Aeroporto internazionale di Napoli-Capodichino",
+      "destinazione": "JFK - John F. Kennedy International Airport",
+      "numero_volo": "UA107",
+      "compagnia_aerea": "United Airlines",
+      "check_in": "08:45 AM",
+      "gate": "7",
+      "status": "On Time",
+      "logo": "https://www.logo.wine/a/logo/United_Airlines/United_Airlines-Logo.wine.svg"
+    },
+    {
+      "partenza": "NAP - Aeroporto internazionale di Napoli-Capodichino",
+      "destinazione": "SFO - San Francisco International Airport",
+      "numero_volo": "UA888",
+      "compagnia_aerea": "United Airlines",
+      "check_in": "06:30 PM",
+      "gate": "5A",
+      "status": "Delayed",
+      "logo": "https://www.logo.wine/a/logo/United_Airlines/United_Airlines-Logo.wine.svg"
+    },
+    {
+      "partenza": "NAP - Aeroporto internazionale di Napoli-Capodichino",
+      "destinazione": "IAD - Washington Dulles International",
+      "numero_volo": "UA301",
+      "compagnia_aerea": "United Airlines",
+      "check_in": "02:00 PM",
+      "gate": "13",
+      "status": "On Time",
+      "logo": "https://www.logo.wine/a/logo/United_Airlines/United_Airlines-Logo.wine.svg"
+    },
+    {
+      "partenza": "NAP - Aeroporto internazionale di Napoli-Capodichino",
+      "destinazione": "EWR - Newark Liberty International",
+      "numero_volo": "UA222",
+      "compagnia_aerea": "United Airlines",
+      "check_in": "04:45 PM",
+      "gate": "12",
+      "status": "Cancelled",
+      "logo": "https://www.logo.wine/a/logo/United_Airlines/United_Airlines-Logo.wine.svg"
+    },
+    {
+      "partenza": "NAP - Aeroporto internazionale di Napoli-Capodichino",
+      "destinazione": "LAX - Los Angeles International Airport",
+      "numero_volo": "UA450",
+      "compagnia_aerea": "United Airlines",
+      "check_in": "07:15 AM",
+      "gate": "9",
+      "status": "Boarding",
+      "logo": "https://www.logo.wine/a/logo/United_Airlines/United_Airlines-Logo.wine.svg"
+    },
+    {
+      "partenza": "NAP - Aeroporto internazionale di Napoli-Capodichino",
+      "destinazione": "ORD - Chicago O'Hare International",
+      "numero_volo": "UA600",
+      "compagnia_aerea": "United Airlines",
+      "check_in": "10:30 AM",
+      "gate": "10",
+      "status": "On Time",
+      "logo": "https://www.logo.wine/a/logo/United_Airlines/United_Airlines-Logo.wine.svg"
+    },
+    {
+      "partenza": "NAP - Aeroporto internazionale di Napoli-Capodichino",
+      "destinazione": "JFK - John F. Kennedy International Airport",
+      "numero_volo": "UA550",
+      "compagnia_aerea": "United Airlines",
+      "check_in": "03:00 PM",
+      "gate": "6",
+      "status": "Delayed",
+      "logo": "https://www.logo.wine/a/logo/United_Airlines/United_Airlines-Logo.wine.svg"
+    },
+    {
+      "partenza": "NAP - Aeroporto internazionale di Napoli-Capodichino",
+      "destinazione": "SFO - San Francisco International Airport",
+      "numero_volo": "UA789",
+      "compagnia_aerea": "United Airlines",
+      "check_in": "12:15 PM",
+      "gate": "8A",
+      "status": "On Time",
+      "logo": "https://www.logo.wine/a/logo/United_Airlines/United_Airlines-Logo.wine.svg"
+    },
+    {
+      "partenza": "NAP - Aeroporto internazionale di Napoli-Capodichino",
+      "destinazione": "IAD - Washington Dulles International",
+      "numero_volo": "UA320",
+      "compagnia_aerea": "United Airlines",
+      "check_in": "05:45 PM",
+      "gate": "15",
+      "status": "Cancelled",
+      "logo": "https://www.logo.wine/a/logo/United_Airlines/United_Airlines-Logo.wine.svg"
+    }
+
+
+  ],
+
+
+
+  "last_news": [
+      {
+          "title": "Aeroporto di Roma Fiumicino: nuovi voli diretti per New York",
+          "date": "2025-01-12",
+          "description": "Da oggi, l'Aeroporto di Roma Fiumicino offre nuovi voli diretti verso New York, con tre compagnie aeree che operano il servizio.",
+          "source": "Agenzia di Stampa Italiana"
+      },
+      {
+          "title": "Chiusura temporanea dell'aeroporto di Milano Linate",
+          "date": "2025-01-11",
+          "description": "L'aeroporto di Milano Linate rimarrà chiuso per lavori di manutenzione fino al 15 gennaio.",
+          "source": "Corriere della Sera"
+      },
+      {
+          "title": "Aeroporto di Malpensa: incremento del traffico passeggeri",
+          "date": "2025-01-10",
+          "description": "L'Aeroporto di Milano Malpensa ha registrato un incremento del 10% nel traffico passeggeri rispetto allo scorso anno.",
+          "source": "Il Sole 24 Ore"
+      },
+      {
+          "title": "Inaugurazione del nuovo terminal all'aeroporto di Napoli",
+          "date": "2025-01-09",
+          "description": "È stato inaugurato un nuovo terminal all'aeroporto di Napoli, che migliorerà l'esperienza dei passeggeri.",
+          "source": "La Repubblica"
+      },
+      {
+          "title": "Aeroporto di Bologna: nuove misure di sicurezza",
+          "date": "2025-01-08",
+          "description": "L'Aeroporto di Bologna ha introdotto nuove misure di sicurezza per garantire la sicurezza dei passeggeri.",
+          "source": "ANSA"
+      }
+  ]
+
+}

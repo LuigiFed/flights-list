@@ -1,0 +1,127 @@
+// #region Menu
+
+nav {
+  width: 100%;
+  background-color: rgba(0, 0, 255, 0.806);
+}
+
+  nav ul {
+    display: flex;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    width: auto;
+  }
+
+      nav li {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        list-style-type: none;
+        margin: 0 ;
+        color: white;
+      } nav li:hover {
+        background-color: rgba(0, 0, 0, 0.2);
+        cursor: pointer;
+      }
+
+        img {
+          height: auto;
+          width: 50px;
+          margin: 0;
+        }
+// #endregion MENU
+
+
+// #region Stile per le last news
+
+        .news-ticker {
+          overflow: hidden;
+          background-color: rgba(0, 0, 255, 0.806);
+          position: relative;
+          width: 100%;
+          white-space: nowrap;
+          display: flex;
+          align-items: center;
+          height: 50px;
+        }
+
+        .news-title {
+          display: flex;
+          font-weight: bold;
+          color: white;
+          align-items: center;
+          background-color: rgba(0, 0, 255, 0.806);
+          width: 10%;
+          padding: 5px;
+          font-size: 20px;
+          z-index: 100;
+          position: relative;
+        }
+
+        .news-container {
+          display: flex;
+          animation: scroll 70s linear infinite;
+          color: white;
+        }
+
+        .news-item {
+          flex: 0 0 auto;
+          padding: 10px;
+          box-sizing: border-box;
+          min-width: 200px;
+        }
+
+        @keyframes scroll {
+          0% {
+            transform: translateX(0);
+          }
+          100% {
+            transform: translateX(-50%);
+          }
+        }
+
+// #endregion Stile per le last news
+
+
+/* #region Stilizzazione della sezione */
+section {
+  position: relative;
+  height: 400px; /* Imposta l'altezza della sezione */
+  width: 100%;
+}
+
+.blurred-background {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+/* Immagine di sfondo con trasparenza */
+.blurred-background::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url(https://www.giovannicarrieri.com/photography/italy/napoli/vesuvio-tramonto.jpg);
+  background-size: cover;
+  background-position: center;
+  opacity: 0.8;
+  z-index: -1;
+}
+
+
+.blurred-background input {
+  display: block;
+  margin: 20px auto;
+  padding: 10px;
+  width: 80%;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+/* #endregion Stilizzazione della sezione */

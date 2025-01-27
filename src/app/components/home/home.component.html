@@ -1,0 +1,159 @@
+<app-menu></app-menu>
+
+<!-- Paragrapo con testo -->
+<div style="display: flex; justify-content: center; align-items: center; height: 20vh;">
+  <p style="text-align: center; font-size: 1.5em; margin: 20px;">
+    "Travel is the only thing you buy that makes you richer."
+  </p>
+</div>
+
+<!-- Card dei servizi -->
+<div class="card-container">
+  <div class="card">
+    <img src="https://vip-escape.com/wp-content/uploads/2020/02/L442-1-1559270687725871.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Fast Track <br> Services</h5>
+    </div>
+  </div>
+  <div class="card">
+    <img src="https://www.shutterstock.com/image-photo/indoor-photo-sophisticated-airport-vip-600nw-2512527321.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Vip Lounge <br>Experience</h5>
+    </div>
+  </div>
+  <div class="card">
+    <img src="https://assets.live.dxp.maginfrastructure.com/f/73114/1024x768/54eab8eedb/bottega.jpeg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Restaurants and Bars <br>Experience</h5>
+    </div>
+  </div>
+  <div class="card">
+    <img src="https://static1.simpleflyingimages.com/wordpress/wp-content/uploads/2024/08/the-5-best-airport-duty-free-shopping-experiences-in-the-world-16x9.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Shops<br>Experience</h5>
+    </div>
+  </div>
+</div>
+
+<!-- TODO Campo per programma benefits-->
+
+<div class="container-benefits d-flex justify-content-between align-items-center" style="height: 30vh;background-color: rgba(18, 18, 150, 0.957);">
+  <div class="text" style="width: 30%;margin-left: 20%;color: white;">
+    <h2>Discover all the loyalty benefits</h2>
+    <p >FlyYou is the loyalty program for passengers departing from Naples. Benefits and discounts for an even more pleasant airport experience.</p>
+    <p>Download the App to find out a world of opportunities.</p>
+  </div>
+  <button class="btn btn-primary" style="margin-right: 20%;">Sign Up</button>
+</div>
+
+<!--TODO Campo per la prenotazione del parcheggio -->
+<div class="container mt-3 mb-3" style="background-image: url('https://www.viaggi-usa.it/wp-content/uploads/2020/01/Ragazza-parcheggio-aeroporto-legge.jpg'); background-size: cover; background-position: center; padding: 50px;">
+  <div class="row">
+    <div class="col-md-6 d-flex align-items-center">
+      <div style="color: white; font-family: Arial, sans-serif;">
+        <h2 style="font-size: 32px; font-weight: bold;">Are you looking for a parking space?</h2>
+        <p style="font-size: 18px;">Buy it online and save up to 20%</p>
+      </div>
+    </div>
+
+    <div class="col-md-6">
+      <form [formGroup]="bookingForm" (ngSubmit)="onSubmit()" style="background-color: rgba(255, 255, 255, 0.8); padding: 30px; border-radius: 8px;">
+
+              <!-- Entry Day -->
+            <div class="form-group">
+              <label for="entryDay" style="font-weight: bold;">Entry Day</label>
+              <input type="date" class="form-control" id="entryDay" formControlName="entryDay" required>
+            </div>
+
+
+            <!-- Entry Time -->
+            <div class="form-group">
+              <label for="entryTime" style="font-weight: bold;">Entry Time</label>
+              <input type="time" class="form-control" id="entryTime" formControlName="entryTime" required>
+            </div>
+
+
+            <!-- Exit Day -->
+            <div class="form-group">
+              <label for="exitDay" style="font-weight: bold;">Exit Day</label>
+              <input type="date" class="form-control" id="exitDay" formControlName="exitDay" required>
+            </div>
+
+
+            <!-- Exit Time -->
+            <div class="form-group">
+              <label for="exitTime" style="font-weight: bold;">Exit Time</label>
+              <input type="time" class="form-control" id="exitTime" formControlName="exitTime" required>
+            </div>
+
+
+            <!-- Promo Code -->
+            <div class="form-group">
+              <label for="promoCode" style="font-weight: bold;">Do you have a promo code?</label>
+              <input type="text" class="form-control" id="promoCode" formControlName="promoCode">
+            </div>
+
+
+            <!-- Regulation Link -->
+            <div class="form-group">
+              <a href="#" class="btn btn-link">Download the regulation</a>
+            </div>
+
+
+              <!-- Submit Button -->
+              <button type="submit" class="btn btn-primary btn-block" style="font-weight: bold;" [disabled]="!bookingForm.valid">Book Now</button>
+      </form>
+
+
+    </div>
+  </div>
+</div>
+
+<!-- Icone con i servizi e descrizioni -->
+<div class="services mt-2">
+  <h2>Our Services</h2>
+  <p style="text-align: center;">All you need for satisfying passengers' needs</p>
+  <ul>
+      <li>
+          <div class="icon-container">
+              <i class="fas fa-id-card"></i>
+          </div>
+          <span>Fidelity Card</span>
+      </li>
+      <li>
+          <div class="icon-container">
+              <i class="fas fa-suitcase-rolling"></i>
+          </div>
+          <span>Luggage Storage</span>
+      </li>
+      <li>
+          <div class="icon-container">
+              <i class="fas fa-wifi"></i>
+          </div>
+          <span>Internet & Wi-Fi</span>
+      </li>
+      <li>
+          <div class="icon-container">
+              <i class="fa-solid fa-wheelchair"></i>
+          </div>
+          <span>Special Assistance</span>
+      </li>
+      <li>
+          <div class="icon-container">
+              <i class="fas fa-info-circle"></i>
+          </div>
+          <span>Service Guides</span>
+      </li>
+  </ul>
+</div>
+
+
+
+
+<app-footer></app-footer>
+
+
+
+
+
+

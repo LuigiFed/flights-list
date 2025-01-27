@@ -1,0 +1,23 @@
+<app-menu></app-menu>
+
+<div *ngIf="volo" style="display: flex; justify-content: center; align-items: center; height: 100vh;">
+  <div class="card m-4" style="border: 1px rgba(0, 0, 0, 0.299) solid; width: 40%; background-color: rgba(88, 166, 197, 0.16);">
+    <div style="display: flex; align-items: center; justify-content: center; flex-direction: column; margin: 30px;">
+      <h2 style="text-align: center; margin: 10px; padding: 10px;">Flight Details: <br>{{ volo.numero_volo }}</h2>
+      <img [src]="volo.logo" alt="{{ volo.compagnia_aerea }}" style="width: 60%;">
+      <div style="text-align: left; width: 100%; max-width: 400px;padding: 30px;">
+        <p><strong>Departure:</strong> {{volo.partenza}}</p>
+        <p><strong>Arrival:</strong> {{ volo.destinazione }}</p>
+        <p><strong>Check-in:</strong> {{ volo.check_in }}</p>
+        <p><strong>Gate:</strong> {{ volo.gate }}</p>
+        <p><strong>Status:</strong> {{ volo.status }}</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+<app-footer></app-footer>
+%
